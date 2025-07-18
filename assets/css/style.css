@@ -80,13 +80,18 @@ nav {
 }
 
 main {
-    background-color: lightblue;
     /* Ensure main takes up remaining space */
     flex: 1 0 auto;
-    margin-top: 47px;
     /* Adjusted to account for header height */
+    margin-top: 47px;
 }
 
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center/cover;
+}
 
 #social-networks {
     text-align: center;
